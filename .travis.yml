@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - lts/*
+
+script:
+  - npx typeorm-model-generator -d $(node getDB.js $BUNGIE_API_KEY) -e sqlite -o tmp
+  - tsc
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script:
+    - npx semantic-release

@@ -1,0 +1,35 @@
+{
+  "name": "@brakacai/d2-worldmodel-typeorm",
+  "version": "0.0.0-development",
+  "description": "Auto-generated model of the \"World Content Database\" of Destiny 2 to use with TypeORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"This aren't the tests you're looking for.\"",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brakacai/d2-worldmodel-typeorm.git"
+  },
+  "author": "Louis Bompart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brakacai/d2-worldmodel-typeorm/issues"
+  },
+  "homepage": "https://github.com/brakacai/d2-worldmodel-typeorm#readme",
+  "peerDependencies": {
+    "typeorm": ">=0"
+  },
+  "devDependencies": {
+    "typeorm": "^0.2.18",
+    "jszip": "^3.2.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "semantic-release": "^15.13.18",
+    "typescript": "^3.5.2"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ]
+}
